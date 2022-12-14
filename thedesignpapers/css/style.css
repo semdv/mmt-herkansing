@@ -1,0 +1,787 @@
+/*   FONTS   */
+
+@font-face {
+    font-family: 'Impact';
+    src: url('fonts/impact.eot');
+}
+@font-face {
+    font-family: 'PMingLiU';
+    src: url('PMingLiU.woff2') format('woff2'),
+        url('PMingLiU.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Avenir Black';
+    src: url('fonts/Avenir-Black.eot');
+}
+.logo{
+    font-family:'Impact';
+    font-size: 60px;
+}
+
+@font-face {
+    font-family: 'Metropolitano Medium';
+    src: url('fonts/Metropolitano-Medium.eot');
+}
+@font-face {
+    font-family: 'AvenirNextLTW04-Thin';
+    src: url('fonts/FontsFree-Net-Avenir-Next-LT-W04-Thin.eot');
+}
+.nav li{font-family: 'AvenirNextLTW04-Thin';
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Metropolitano Light';
+    src: url('fonts/Metropolitano-Light.eot');
+}
+
+.thema{ font-family:'Metropolitano Light';}
+
+@font-face {
+    font-family: 'The Essential';
+    src: url('fonts/TheEssential.eot');
+    src: url('fonts/TheEssential.eot?#iefix') format('embedded-opentype'),
+         url('fonts/TheEssential.woff2') format('woff2'),
+         url('fonts/TheEssential.woff') format('woff'),
+         url('fonts/TheEssential.ttf')  format('truetype'),
+         url('fonts/TheEssential.svg#The Essential') format('svg');
+}
+
+@font-face {
+    font-family: 'Metropolitano Medium';
+    src: url('fonts/Metropolitano-Medium.eot');
+}
+
+.responsive-container{
+    width: 1366px;
+    margin: 0 auto;
+    height: 3000px;
+}
+
+/*    HEADER    */
+header{
+    height: 750px;
+    width: 1366px;
+    margin: 0 auto;
+    background-color: #D0D4CC;
+   
+}
+a{
+    text-decoration: none;
+}
+.logo{ 
+    position: absolute;
+  
+    color: black;
+    text-align: center;
+ 
+}
+nav{
+    float: right;
+
+ 
+}
+.navbar{
+    position: absolute;
+    right: 100px;
+    height: 100px;
+  
+}
+nav li{
+    font-family: 'AvenirNextLTW04-Thin';
+    float: right; 
+    margin-top: 80px;
+    width: 130px;
+    height: 50px;
+    padding-right: 10px;
+    text-align: center; 
+}
+#container{
+    height: 1600px;
+    width: 1366px;
+    margin: 0 auto;
+}
+.streep{
+    width: 100px;
+    float: left;
+    margin-left: 50px;
+
+}
+.streep img{
+     padding-top: 160px;
+}
+.voorblad{
+    position: relative;
+}
+.thema{
+    padding-top: 170px;
+    margin-left: 50px;
+}
+.voorblad img{
+    height: 650px;
+    width: 650px;
+   float: right;
+   margin-right: 100px;
+}
+.link{
+    text-decoration: none;
+}
+.titel{
+    display: block;
+    width: 1000px;
+    height: 200px;
+    /* position: absolute; */
+    padding-top: 100px;
+    text-decoration: none;
+}
+.voorblad p{
+    font-family: 'Avenir Black';
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    margin-left: 50px;
+    line-height: 65px;
+}
+section{
+    display: block;
+    width: 500px;
+    height: 160px;
+    margin-left: 50px;
+    /* position: absolute; */
+    top: 250px;
+}
+.voorblad .p2{
+    font-family: 'PMingLiU';
+    font-size: 30px;
+    color: black;
+    line-height: 35px;
+}
+
+/*    MAIN    */
+.maincontainer{
+    width: 1366px;
+    height: 4600px;
+    margin: 0 auto;
+}
+.content-block{
+    margin: 0 auto;
+}
+#container-1{
+    height: 1000px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#block-1{
+    height: 900px;
+    width: 650px;
+    margin-top: 100px;
+    /* position: absolute; */
+}
+h1{
+    font-family: 'The Essential';
+    font-size: 70px;
+    position: relative;
+
+}
+#block-1 h2{
+    font-size: 30px;
+}
+#streep2{
+    width: 300px;
+  /* position: absolute; */
+
+}
+#ontwerpen1{
+    width: 600px; 
+}
+h2{
+    padding-top: 30px;
+    font-family: 'Avenir Black';
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#block-2{
+    height: 380px;
+    width: 650px;
+    margin-top: 160px;
+    margin-left: 300px;
+    float: right;
+    position: relative;
+}
+#block-2 h2{
+    clear: both;
+    width: 250px;
+    /* position: absolute; */
+}
+#block-2 h3{
+    width: 250px;
+}
+#block{
+    height: 380px;
+    width: 650px;
+    margin-left: 300px;
+    float: right;
+    position: relative;
+   
+}
+#block h2{
+    clear: both;
+    width: 250px;
+    /* position: absolute; */
+    
+}
+#block h3{
+    width: 250px;
+}
+#ontwerpen4{
+    float: right;
+    margin-top: 120px;
+    margin-right: 110px;
+}
+#ontwerpen3{
+    margin-top: 75px;
+}
+#ontwerpen5{
+    float: right;
+    margin-top: 195px;
+    margin-right: 110px;
+}
+#block-2 h2{
+    font-size: 20px;
+    padding-top:0;
+    padding-bottom: 0;  
+    line-height: 25px; 
+}
+#block-2 h3{
+    font-size: 20px;
+    padding-top:0;
+    padding-bottom: 0; 
+    font-family: 'Avenir Black';  
+    margin-left: 280px;
+    margin-top: -20px;
+    line-height: 25px; 
+}
+#block h2{
+    font-size: 20px;
+    padding-top:0;
+    padding-bottom: 0;  
+    line-height: 25px; 
+}
+#block h3{
+    font-size: 20px;
+    padding-top:0;
+    padding-bottom: 0;  
+    font-family: 'Avenir Black';  
+    margin-left: 280px;
+    margin-top: -20px;
+    line-height: 25px; 
+}
+
+#block-3{
+    background-color: #E7E7E7;
+    height: 200px;
+    width: 1366px;
+    margin-top: 80px;
+}
+#block-4{
+    background-color: #D0D4CC;
+    height: 300px;
+    width: 1366px;
+    position: relative;
+    margin-top: 60px;
+}
+#quote h2{
+    font-family: 'PMingLiU';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+#quote p{
+    font-family:'The Essential';
+    font-size: 20px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+#nieuwsbrief h4{
+    font-family: 'The Essential';
+    font-size: 50px;
+   padding: 60px;
+   margin-left: 70px;
+}
+#nieuwsbrief p{
+    font-family: 'Metropolitano Medium';
+    font-size: 20px;
+    padding-left: 80px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+#streep3{
+    margin-left: 150px;
+    width: 500px;
+    position: absolute;
+}
+#nieuwsbrief .p2{
+    font-family:'Metropolitano Medium';
+    position: relative;
+    left: 550px;
+    top: 10px;
+}
+
+#block-5{
+    width: 1366px;
+    height: 500px;
+    margin-top: 60px;
+}
+.kunst{
+   /* position: absolute;  */
+   height: 500px;
+   text-align: center;
+}
+.kunst1{
+    position: relative;
+    height: 500px;
+    width: 1366px;
+}
+
+.themakunst{
+    font-family:'Metropolitano Light';
+    /* position: absolute; */
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+.titelkunst{
+    font-family: 'Avenir Black';
+    color: white;
+    font-size: 40px;
+    /* position: absolute; */
+    bottom: 20px;
+    right: 20px;
+}
+.biokunst{
+    font-family: 'PMingLiU';
+    color: white;
+    font-size: 30px;
+    /* position: absolute; */
+    bottom: 30px;
+    margin-left: 40px;
+    width: 450px;  
+    text-align: left;
+    line-height: 35px;
+}
+#block-6{
+    height: 550px;
+    width: 1366px;
+    margin-top: 60px;
+}
+#block-6 p{
+    font-family:'Metropolitano Light';
+    margin-bottom: 20px;
+}
+#block-6 h2{
+    margin-top: -25px;
+    font-size: 20px;
+    width: 350px;
+    line-height: 20px;
+    text-align: center;
+}
+.themakunst1{
+    float: left;
+    margin-left: 80px; 
+    position: relative;
+}
+.themakunst2{
+    float: left;
+    margin-left: 80px;
+    position: relative;
+}
+.themakunst3{
+    float: right;
+    margin-right: 80px;
+    position: relative;
+}
+#streep4{
+    width: 340px;
+}
+#streep5 {
+    width: 340px;
+}
+#streep6 {
+    width: 340px;   
+}
+#block-7{
+    height: 580px;
+    width: 1366px;
+    margin-top: 60px;
+}
+#block-8{
+    height: 580px;
+    width: 435px;
+    float: right;
+    margin-right: 90px;
+}
+.technologie p{
+    font-family: 'Metropolitano Light';
+}
+.technologie h2{
+    padding-top: 0 auto;
+    line-height: 50px;
+}
+.technologie .p2{
+    font-family: 'PMingLiU';
+    font-size: 20px;
+    line-height: 30px;
+}
+#block-9{
+    height: 565px;
+    width: auto;
+    background-color:#D0D4CC;
+    position: relative;
+    margin-top: 60px;
+}
+#block-9 p{
+    font-family: 'Metropolitano Light';
+}
+#block-9 h2{
+    font-size: 20px;
+}
+.technologie2{
+    float: left;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.technologie3{
+    float: left;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.technologie4{
+    float: right;
+    margin-right: 120px;
+    margin-top: 60px;
+}
+#block-10{
+    height: 450px;
+    width: 1366px;
+    /* position: absolute; */
+    margin-top: 60px;
+}
+#block-10 p{
+    font-family:'Metropolitano Light';
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+#block-10 h2{
+    margin-top: -10px;
+    font-size: 15px;
+    text-align:right
+}
+.themaethiek1{
+    float: left;
+    margin-left: 50px; 
+    position: relative;
+    }
+.themaethiek2{
+    float: left;
+    margin-left: 65px;
+    position: relative;
+    }
+.themaethiek3{
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    }
+#streep7{
+    width: 380px;
+        }
+#streep8 {
+    width: 380px;
+        }
+#streep9 {
+    width: 380px;
+}
+
+ /*     FOOTER      */
+
+ footer{
+    height: 300px;
+    position: relative;
+ }
+ .logo2{
+    font-family:'Impact';
+    font-size: 60px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    padding-bottom: 80px;
+ }
+ 
+ .footerblock{
+    width: 1366px;
+    height: 300px;
+    margin: auto;
+ }
+ #langestreep{
+    width: 1366px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .footerblock p{
+    font-family:'Metropolitano Light';
+    display: inline;
+    margin-right: 70px;
+ }
+ #textfooter p{
+    float: right;
+    margin-right: 0px;
+    margin-left: 70px;
+ }
+
+ /*        ARTICLE      */
+
+ /*   ARTICLE HEADER   */
+
+header2{
+    height: 485px;
+    width: auto;
+    position: relative;
+}
+
+.container{
+    width: 1130px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.container img{
+    margin-top: 150px;
+}
+#langestreep2{
+    margin-top: 300px;
+    /* position: absolute; */
+}
+.container h1{
+    font-family: 'Avenir Black';
+    font-size: 50px;
+    text-align: center;
+    top: 150px;
+    line-height: 78px;
+    text-transform:uppercase;
+}
+.container section{
+    width: 635px;
+    top: 30px;
+    left: 200px;
+}
+p{
+    font-family: 'Metropolitano Light';
+}
+.p2{
+    font-family: 'Metropolitano Light';
+}
+.about{
+    float: right;
+}
+.about p{ 
+    margin-left: 143px;
+    margin-top: 240px;
+    /* position: absolute; */
+}
+
+.about img{
+    margin-top: 250px;
+}
+
+/*  A-MAIN  */
+h4{
+    font-size: 30px;
+    font-family: 'Avenir Black';
+    margin-left: 40px;
+}
+.articlecontainer{
+    width: 1366px;
+    height: 5850px;
+    margin: 0 auto;
+}
+.textcontainer{
+    width: 750px;
+    height: 1110px;
+    margin: 0 auto
+}
+#tekstvlak1 img{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 900px;
+}
+.textcontainer h2{
+    font-family: 'PMingLiU';
+    font-size: 30px;
+    line-height: 38px;
+    width: 800px;
+    margin: 0 auto;
+}
+.textcontainer p{
+    font-family: 'Avenir medium';
+    font-size: 21px;
+    line-height: 30px;   
+}
+#tekstvlak1{
+    width: 900px;
+}
+#tekstvlak1 p{
+    margin: 0 auto;
+    margin-top:50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.articlecontainer h3{
+   font-family:'Avenir Black';
+   font-size: 25px;
+   line-height: 32px;
+    float: right;
+    position: relative;
+    width: 400px;
+    right:200px;
+    margin-top: 100px; 
+}
+#tekstvlakje{
+    height: 500px;
+    width: 1366px;
+    margin-top: 60px;
+}
+h5{
+    font-family:'PMingLiU' ;
+    font-size: 30px;
+    margin-right: 465px;
+    margin-top: 50px;
+}
+.tekstimg3 img{
+    width: 200px;
+}
+.tekstimg3 h3{
+    margin-top: 20px;
+}
+.tekstimg3{
+    float: right;
+}
+#tekstvlak2{
+    height: 520px;
+    width: 750px;
+    margin-top: 50px;
+}
+
+#tekstvlak2 p{
+    margin: 0 auto;
+    margin-top:10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#tekstvlak2 h4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.quotevlak{
+    width: 1366px;
+    height:200px;
+    background-color: #D0D4CC;
+    display: block;
+    margin-top: 50px;
+}
+.quotevlak h4{
+    font-family:'Avenir Black' ;
+    text-align: center;
+    font-size: 40px;
+   width: 850px;
+   margin: 0 auto;
+   padding-top: 50px;
+   line-height: 45px;
+}
+.quotevlak p{
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#tekstvlak3{
+    width: 1366px;
+    height: 500px;
+    margin-top: 70px;
+}
+#tekstvlak3 img{
+    padding-right: 30px;
+}
+
+.tekstimg{
+    float: right;
+    margin-right: 50px;
+    width: 625px;
+}
+#tekstvlak3 p{
+line-height: 30px;
+padding-bottom: 10px;
+margin-top: 20px;
+}
+#tekstvlak3 h4{
+    margin-left: 0px;
+}
+#tekstvlak4{
+    height: 700px;
+}
+
+#tekstvlak4 p{
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+#tekstvlak5{
+    background-color:#E7E7E7 ;
+    height: 400px;
+    width: 1366px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+#tekstvlak5 h4{
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+.tekstimg2{
+    float: left;
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+#vbfoto4{
+    float: right;
+    margin-right: 150px;
+}
+#tekstvlak6{
+    height: 580px;
+    
+}
+#tekstvlak6 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#tekstvlak7{
+    width: 800px;
+    height: 600px;
+}
+#tekstvlak8 p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#tekstvlak8 h4{
+    margin-bottom: 20px;
+}
+#tekstvlak8{
+    height: 400px;
+}
